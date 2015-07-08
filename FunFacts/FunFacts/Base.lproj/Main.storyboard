@@ -17,15 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An interesting fact goes here" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ip-Pf-RXf">
-                                <rect key="frame" x="52" y="200" width="216" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are born with 300 bones; by the time you are an adult you will have 206." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ip-Pf-RXf">
+                                <rect key="frame" x="52" y="200" width="216" height="90"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="Td6-lc-TGk"/>
+                                    <constraint firstAttribute="height" constant="90" id="Td6-lc-TGk"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="cZn-HU-otm"/>
                                     <constraint firstAttribute="width" constant="216" id="zL6-M4-7UN"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zge-eI-Xdz">
@@ -67,11 +67,12 @@
                     </view>
                     <connections>
                         <outlet property="funFactLabel" destination="5ip-Pf-RXf" id="lRv-9a-hNp"/>
+                        <outlet property="funcFactButton" destination="Zge-eI-Xdz" id="UNs-CI-Rig"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="399" y="348"/>
+            <point key="canvasLocation" x="45" y="351"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
