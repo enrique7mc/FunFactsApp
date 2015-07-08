@@ -13,6 +13,7 @@
 		84BA16091B4C5A8A00ECC81A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BA16081B4C5A8A00ECC81A /* Images.xcassets */; };
 		84BA160C1B4C5A8A00ECC81A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BA160A1B4C5A8A00ECC81A /* LaunchScreen.xib */; };
 		84BA16181B4C5A8A00ECC81A /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA16171B4C5A8A00ECC81A /* FunFactsTests.swift */; };
+		84D444C81B4D699000F635A1 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D444C71B4D699000F635A1 /* FactBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		84BA16111B4C5A8A00ECC81A /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BA16161B4C5A8A00ECC81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BA16171B4C5A8A00ECC81A /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		84D444C71B4D699000F635A1 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				84BA16011B4C5A8A00ECC81A /* AppDelegate.swift */,
+				84D444C71B4D699000F635A1 /* FactBook.swift */,
 				84BA16031B4C5A8A00ECC81A /* ViewController.swift */,
 				84BA16051B4C5A8A00ECC81A /* Main.storyboard */,
 				84BA16081B4C5A8A00ECC81A /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D444C81B4D699000F635A1 /* FactBook.swift in Sources */,
 				84BA16041B4C5A8A00ECC81A /* ViewController.swift in Sources */,
 				84BA16021B4C5A8A00ECC81A /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				84BA161D1B4C5A8A00ECC81A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84BA161E1B4C5A8A00ECC81A /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				84BA16201B4C5A8A00ECC81A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
